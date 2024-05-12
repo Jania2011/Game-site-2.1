@@ -26,11 +26,11 @@ body {
 }
 
 @keyframes rotation {
-  to {
+  0% {
     transform: rotate(0deg);
   }
 
-  from {
+  100% {
     transform: rotate(360deg);
   }
 }
@@ -54,6 +54,8 @@ body {
 .btn-purple:hover {
   background-color: #753dca;
 }
+
+
 
 .gta-img {
   flex: 1.5;
@@ -143,7 +145,6 @@ body {
   }
 }
 
-
 @media (max-width: 420px) {
   .first-card-row {
     flex-direction: column;
@@ -170,3 +171,4 @@ body {
     margin: 0;
   }
 }
+
